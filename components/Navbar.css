@@ -1,0 +1,28 @@
+.main{
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: black;
+    color: azure;
+    padding: 0 20px;  
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-sizing: border-box;  
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.list ul{
+   display: flex;
+   flex-direction: row;
+   gap: 40px;
+}
+.list li{
+    cursor: pointer;
+}
+.list li:hover{
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
